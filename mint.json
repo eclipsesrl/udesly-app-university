@@ -8,8 +8,8 @@
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#6f39f8",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "light": "#6f39f8",
+    "dark": "#6f39f8"
   },
   "topbarLinks": [
     {
@@ -23,24 +23,29 @@
   },
   "anchors": [
     {
+      "name": "Shopify",
+      "icon": "shopify",
+      "url": "shopify",
+      "color":"#96bf48"
+    },
+    {
       "icon": "wordpress",
       "name": "WordPress",
       "url": "wordpress"
     },
-    {
-      "name": "Shopify",
-      "icon": "shopify",
-      "url": "shopify"
-    }, {
+     {
       "name": "Ghost",
       "icon": "blog",
       "url": "ghost"
     }
   ],
+  "topAnchor": {
+    "name": "Documentation"
+  },
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Getting Started",
+      "pages": ["introduction", "requirements"]
     }
   ],
   "footerSocials": {
